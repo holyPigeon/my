@@ -1,0 +1,210 @@
+/* 영역 표시 */
+div{
+    border: 1px solid white;
+}
+
+#container{
+    /*background-image: url('image/배경화면.jpeg');*/
+    /*width: 96%;
+    margin: 0 auto;*/
+}
+
+/* 링크 */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+/* 로그인 창 */
+form{
+    width: 300px;
+    height: 200px;
+}
+
+/* 모든 ul li 태그 앞에 동그라미 없앰 */
+ul li{
+    list-style-type: none;
+}
+
+
+/* 아이디 비밀번호 input */
+#login ul li input{
+    width: 150px;
+    height:30px;
+    margin-left: -15px;
+    border-radius: 5px;
+    margin: 2px 0;
+    float: left;
+}
+
+/* 로그인 버튼 */
+#login ul input{
+    width: 50px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+/* 회원가입, ID/PW 찾기 영역 */
+#loginMenu{
+    
+}
+
+/* 회원가입, ID/PW 찾기 */
+#loginMenu ul li{
+    display: inline;
+}
+
+/* 전체 */
+#container{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* 상단 제목 부분 */
+#headline{
+    width: 1000px;
+    height: 130px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    border: 2px solid #aaa;
+}
+
+/* 롤 이미지 */
+#headline #lol{
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+/* "리그오브레전드 인벤" */
+#headline h1{
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 3;
+    font-style: italic;
+    color: goldenrod;
+    margin-left: 0px;
+    margin-top: -110px;
+}
+
+/* 티모 이미지 */
+#headline #teemo{
+    float: right;
+    margin-right: 20px;
+    margin-top: -137px;
+
+}
+
+/* 메뉴와 게시판 포함 컨텐츠 전체 */
+#content{
+    height:600px;
+    /*background-color: white;*/
+}
+
+/* 메뉴 */
+#menu{
+    width: 300px;
+    height: 600px;
+    display: inline-block;
+    
+}
+
+/* 메뉴 글 목록 */
+#menu #menuboard{
+    color: black;
+    font-size: 1.2em;
+    line-height: 2.2;
+    border: 1px solid black;
+    height: 400px;
+    
+}
+
+#menu #menuboard ul{
+
+}
+
+/* 자유 게시판 전체 */
+#freeboard{
+    width:517px;
+    display: inline-block;
+    margin-left: 20px;
+    float: right;
+
+}
+
+/* 자유 게시판 헤더 */
+#freeboard #boardhead1 {
+    border-bottom: 3px solid black;
+
+}
+
+/* 더보기 */
+#freeboard #boardhead1 h2 a{
+    font-size: 0.7em; 
+    float:right; 
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+/* 자유 게시판 글 제목 전체 */
+#freeboard #boardcontent1{
+    height: 530px;
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+/* 자유 게시판 글 제목 부분 */
+#freeboard #boardcontent1 ul li{
+    border-bottom: 1px solid gray;
+    padding-left:20px;
+    margin-left: -20px;
+    margin-right:20px;
+
+}
+
+
+/* 오늘의 화제글 전체 */
+#hotboard{
+    width:517px;
+    display: inline-block;
+    float: right;
+}
+
+/* 오늘의 화제글 헤더 */
+#hotboard #boardhead2 {
+    border-bottom: 3px solid black;
+  
+}
+
+/* 더보기 */
+#hotboard #boardhead2 h2 a{
+    font-size: 0.7em; 
+    float:right; 
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+/* 오늘의 하제글 글 제목 부분 */
+#hotboard #boardcontent2{
+    height: 530px;
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+/* 오늘의 화제글 글 제목 부분 */
+#hotboard #boardcontent2 ul li{
+    border-bottom: 1px solid gray;
+    padding-left:20px;
+    margin-left: -20px;
+    margin-right:20px;
+
+}

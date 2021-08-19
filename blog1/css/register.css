@@ -1,0 +1,116 @@
+/* 영역 표시 */
+div{
+    border: 1px solid white;
+}
+
+/* 전체 */
+#container{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* 상단 제목 부분 */
+#header{
+    width: 1000px;
+    height: 130px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    text-align: right;
+    border: 2px solid #aaa;
+}
+
+/* 롤 이미지 */
+#header #lol{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 780px;
+}
+
+/* "회원가입" 글자를 중앙으로 배치 */
+#header h1{
+    text-align: center ;
+    font-size: 2.5em;
+    font-style: italic;
+    margin-top: -73px;
+    
+}
+
+/* 티모 이미지 */
+#header #teemo{
+    float: right;
+    margin-right: 20px;
+    margin-top: -102px;
+
+}
+
+/* 메뉴와 게시판 포함 컨텐츠 전체 */
+#content{
+    height:600px;
+}
+
+/* 회원 정보 전체 */
+#register{
+    width:1407px;
+    height:600px;
+}
+
+/* 회원 정보 영역 */
+#register form{
+    border: 1px solid black;
+    width:1406px;
+    height:600px;
+}
+
+/* 회원 정보 input 앞에 레이블 */
+.field{
+    float: left;
+    margin-right: 15px;
+    line-height: 70px;
+    margin-left: 380px;
+    font-size: 1.0em;
+    text-align: right;
+    font-weight: bold;
+}
+
+/* 회원 정보 input */
+#register ul li input{
+    float: right;
+    width: 350px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    margin:10px 0;
+    margin-right: 490px;
+}
+
+#register #confirm{
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+
+/* 링크 */
+a{
+    text-decoration: none;
+}
+
+/* 로그인 창 */
+form{
+    width: 300px;
+    height: 200px;
+}
+
+/* 모든 ul li 태그 앞에 동그라미 없앰 */
+ul{
+    list-style: none;
+}
+
+ul li{
+    clear: both;
+}
